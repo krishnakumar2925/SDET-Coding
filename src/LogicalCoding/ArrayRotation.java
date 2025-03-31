@@ -15,7 +15,7 @@ public class ArrayRotation {
         Collections.rotate(list, k);
         // Rotate the list by k positions
 
-        ((ArrayList<Integer>) list).forEach(System.out::println);
+        list.forEach(System.out::println);
 
 
 }

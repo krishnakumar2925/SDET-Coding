@@ -24,7 +24,7 @@ public class CharCount {
 		                count = 1;
 		            }
 		        }
-		        //compressed.append(count).append(input.charAt(input.length() - 1));
+		        compressed.append(count).append(input.charAt(input.length() - 1));
 
 		        return compressed.toString();
 		    }
