@@ -14,6 +14,8 @@ public class Anagram {
 		Arrays.sort(st1);
 		Arrays.sort(st2);
 		
+		
+		
 		System.out.println(Arrays.equals(st1, st2));
 
 	}

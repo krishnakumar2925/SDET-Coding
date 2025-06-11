@@ -4,7 +4,7 @@ public class CharCount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String input = "aaabbccca";
+		String input = "aabbcccc";
         String output = Stringcount(input);
         System.out.println("Input String : " + input);
         System.out.println("Compressed String: " + output);
@@ -20,7 +20,7 @@ public class CharCount {
 		            if (input.charAt(i) == input.charAt(i + 1)) {
 		                count++;
 		            } else {
-		                compressed.append(count).append(input.charAt(i - 1));
+		                compressed.append(count).append(input.charAt(i));
 		                count = 1;
 		            }
 		        }

@@ -11,9 +11,9 @@ public class Stringreverse {
 	}
 	public static String reverse(String str) {
 		
-		StringBuilder string =new StringBuilder();
-		string.reverse();
-		//string.replace(0, str.length()-2, "Hi");
+		StringBuilder string =new StringBuilder(str);
+		//string.reverse();
+		string.replace(0, str.length()-2, "Hi");
 		//string.append(str);
 		
 		return string.toString();

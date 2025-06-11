@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -19,7 +20,7 @@ public class uniqueSubString {
 	}
 
 	public static String[] Unique(String str) {
-		Set<String> set = new HashSet<>();
+		Set<String> set = new LinkedHashSet<>();
 
 		int l = str.length();
 		for (int i = 0; i < l; i++) {
